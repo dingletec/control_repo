@@ -5,6 +5,6 @@ node default {
     owner   => 'root',
   }
   package {'terminator':
-    ensure => installed,
+    ensure => present,
   }
 }
